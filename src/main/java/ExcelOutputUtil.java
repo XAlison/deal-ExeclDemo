@@ -1,16 +1,10 @@
-/**
- * Created by Any on 2018/7/15.
- */
 
 
-import com.sun.corba.se.spi.ior.IdentifiableFactory;
-import jdk.nashorn.internal.objects.NativeUint8Array;
 import org.apache.poi.hpsf.DocumentSummaryInformation;
 import org.apache.poi.hpsf.SummaryInformation;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.DataValidationConstraint;
-import org.apache.poi.ss.usermodel.Name;
 import org.apache.poi.ss.util.CellRangeAddressList;
 
 import java.io.File;
@@ -22,11 +16,11 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * 从数据库中读取工资的字段，然后动态生成excel模板
- *
- * @author qiulinhe
- * <p>
- * 2017年2月20日 下午5:41:35
+ * @Description: TODO
+ * @Author: Administrator
+ * @param: 
+ * @Date: 2018/7/27 10:32
+ * @Version 1.0
  */
 public class ExcelOutputUtil {
 
